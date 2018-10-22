@@ -29,6 +29,7 @@ function appendKitten(name) {
   return newArray
 }
 
+<<<<<<< HEAD
 function prependKitten(name) {
   var newArray1 = kittens.slice(0)
   newArray1.unshift(name)
@@ -44,3 +45,8 @@ function removeFirstKitten() {
   var newArray3 = kittens.slice(1)
   return newArray3
 }
+=======
+// function prependKitten(name) {
+//   var newArray1 = kittens.
+// }
+>>>>>>> 1df1050105d7b34b70caecc77933e480b187dc1d
